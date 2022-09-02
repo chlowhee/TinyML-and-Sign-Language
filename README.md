@@ -2,8 +2,11 @@
 This project explores how TinyML can be used to interpret complex gestures with Visual-Gestural Communication (VGC).
 
 ## Hardware used:
-  - Arduino Nano 33 BLE
-  - TTP223B Digital Capacitive Touch Sensor
+  - Arduino Nano 33 BLE - To detect hand movement and orientation while signing
+  - TTP223B Digital Capacitive Touch Sensor - To detect gestures that involves certain finger positioning
+
+![Screenshot 2022-09-02 113537](https://user-images.githubusercontent.com/72986675/188054175-b0ca3d71-9f4a-4584-b188-ad928c6adc4e.png)
+
 
 ## Code files:
   1. CE4172_Model Training - Used TensorFlow Lite to train the model to be used in the Arduino Nano.
@@ -12,4 +15,3 @@ This project explores how TinyML can be used to interpret complex gestures with 
 
 ## References:
   https://github.com/arduino/ArduinoTensorFlowLiteTutorials/
-
